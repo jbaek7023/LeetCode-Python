@@ -22,7 +22,10 @@ class SolutionUnitTest(unittest.TestCase):
         self.assertEqual(s.findDisappearedNumbers(input), output)
 
 if __name__ == '__main__':
+    a = 500
+    print(a[1])
     unittest.main()
+
 
 # Note
 # xrange and range are the exact same in terms of functionality
